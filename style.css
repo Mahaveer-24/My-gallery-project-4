@@ -1,0 +1,38 @@
+.head {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+.underline{
+    display: inline-block;
+    width: 400px;
+    height: 3px;
+    color: grey;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: solid grey 3px;
+    width: 400px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    margin: auto;
+    justify-content: center;
+}
+.container img{
+    align-content: center;
+    border: solid black 3px;
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
+}
+
